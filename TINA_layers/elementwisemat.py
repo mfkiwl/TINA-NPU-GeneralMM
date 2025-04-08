@@ -1,5 +1,5 @@
 import torch
-
+import torch.nn as nn
 
 class ElementwiseMult(nn.Module):
   def __init__(self, matrix) -> None:
