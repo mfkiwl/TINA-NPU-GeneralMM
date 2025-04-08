@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 
 class Summation(nn.Module):
   def __init__(self, inputwidth) -> None:
